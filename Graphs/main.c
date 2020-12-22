@@ -3,8 +3,6 @@
 #include <malloc.h>
 #include <string.h>
 
-#define STR_LENGHT 31
-
 // Функции
 void addNewGraph(void); // Добавление нового графа
 void setGraphInfo(void); // Заполнение массивов вершин и ребер
@@ -14,7 +12,7 @@ void showGraphInfo(void); // Вывод информации о графе
 struct Graph
 {
     // Массивы вершин и ребер графа
-    char name[STR_LENGHT];
+    char name[1];
     char *vertices, **edges;
     int v_count, e_count;
 
@@ -140,7 +138,7 @@ void setGraphInfo()
 
 void showGraphInfo(void)
 {
-    char findGraphName[STR_LENGHT];
+    char findGraphName[1];
     
     printf("\nВведите имя графа: ");
     scanf("%s", findGraphName);
