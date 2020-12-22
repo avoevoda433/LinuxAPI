@@ -56,7 +56,6 @@ int main(void)
 
     } while (choise != 0);
     
-    
     return 0;
 }
 
