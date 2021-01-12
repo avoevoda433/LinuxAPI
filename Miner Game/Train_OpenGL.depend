@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1610464092 source:/home/avoevoda/PersonalProjects/OpenGL/Train_OpenGL/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
