@@ -328,7 +328,7 @@ int main(int argc, char** argv)
     /* window settings */
     glutInitWindowSize(500, 500); // window size
     glutInitWindowPosition(500, 300); // window position
-    glutCreateWindow("OpenGL"); // window name
+    glutCreateWindow("Miner"); // window name
     init();
 
     newGame();
